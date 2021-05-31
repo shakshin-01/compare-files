@@ -1,0 +1,32 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "[![Actions Status](https://github.com/shakshin-01/frontend-project-lvl2/workflows/hexlet-check/badge.svg)](https://github.com/shakshin-01/frontend-project-lvl2/actions)",
+  "bin": {
+    "gendiff": "bin/gendiff.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shakshin-01/frontend-project-lvl2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shakshin-01/frontend-project-lvl2/issues"
+  },
+  "homepage": "https://github.com/shakshin-01/frontend-project-lvl2#readme",
+  "devDependencies": {
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "prettier": "^2.3.0"
+  },
+  "dependencies": {
+    "commander": "^7.2.0"
+  }
+}
