@@ -1,7 +1,7 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/shakshin-01/frontend-project-lvl2/workflows/hexlet-check/badge.svg)](https://github.com/shakshin-01/frontend-project-lvl2/actions)
 
-[![Node.js CI](https://github.com/shakshin-01/frontend-project-lvl2/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/shakshin-01/frontend-project-lvl2/actions/workflows/node.js.yml)
+[![Node.js CI](https://github.com/shakshin-01/frontend-project-lvl2/actions/workflows/node.js.yml/badge.svg)](https://github.com/shakshin-01/frontend-project-lvl2/actions/workflows/node.js.yml)
 
 <a href="https://codeclimate.com/github/shakshin-01/frontend-project-lvl2/maintainability"><img src="https://api.codeclimate.com/v1/badges/3e7e71e9c9f0437a7310/maintainability" /></a>
 
