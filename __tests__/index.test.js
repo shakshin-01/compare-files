@@ -8,12 +8,21 @@ const json1 = getFixturePath('file1.json');
 const json2 = getFixturePath('file2.json');
 const yml1 = getFixturePath('file1.yml');
 const yml2 = getFixturePath('file2.yml');
-const result = fs.readFileSync(getFixturePath('stylishResult.txt'), 'utf-8');
+const resultDefault = fs.readFileSync(getFixturePath('stylishResult.txt'), 'utf-8');
+const resultPlain = fs.readFileSync(getFixturePath('plainResult.txt'), 'utf-8');
 
-test('Compare .json files', () => {
-  expect(genDiff(json1, json2)).toBe(result);
+test('Compare .json files with default formatter', () => {
+  expect(genDiff(json1, json2)).toBe(resultDefault);
 });
 
-test('Compare .yml files', () => {
-  expect(genDiff(yml1, yml2)).toBe(result);
+test('Compare .yml files with default formatter', () => {
+  expect(genDiff(yml1, yml2)).toBe(resultDefault);
+});
+
+test('Compare .json files with plain formatter', () => {
+  expect(genDiff(json1, json2, 'plain')).toBe(resultPlain);
+});
+
+test('Compare .yml files with plain formatter', () => {
+  expect(genDiff(yml1, yml2, 'plain')).toBe(resultPlain);
 });
