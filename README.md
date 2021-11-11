@@ -1,13 +1,10 @@
 # CLI app, which compares two configuration files and shows a difference.
 
-## Hexlet tests and linter status ##
-[![Actions Status](https://github.com/shakshin-01/frontend-project-lvl2/workflows/hexlet-check/badge.svg)](https://github.com/shakshin-01/frontend-project-lvl2/actions)
-
-## Eslint and tests status ##
+## Eslint status ##
 
 [![Node.js CI](https://github.com/shakshin-01/frontend-project-lvl2/actions/workflows/node.js.yml/badge.svg)](https://github.com/shakshin-01/frontend-project-lvl2/actions/workflows/node.js.yml)
 
-## CodeClimate status ##
+## CodeClimate and test coverage status ##
 
 <a href="https://codeclimate.com/github/shakshin-01/frontend-project-lvl2/maintainability"><img src="https://api.codeclimate.com/v1/badges/3e7e71e9c9f0437a7310/maintainability" /></a>
 
@@ -28,9 +25,10 @@ make install
 # install the package
 make link
 ```
+
+### How to start app
 ```
-How to start app:
-Supported file formats: JSON, YAML
+Supported file formats: json, yml
 Supported output: stylish(default), plain, json
 
 $ gendiff --format [output type] <pathToFile1> <pathToFile2>
