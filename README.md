@@ -14,7 +14,7 @@
 
 ```sh
 # clone the repository
-git clone https://github.com/shakshin-01/frontend-project-lvl2.git
+git clone https://github.com/shakshin-01/compare-files.git
 
 # go to the folder with the repository
 cd frontend-project-lvl2
