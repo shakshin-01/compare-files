@@ -17,7 +17,7 @@
 git clone https://github.com/shakshin-01/compare-files.git
 
 # go to the folder with the repository
-cd frontend-project-lvl2
+cd compare-files
 
 # install dependencies
 make install
